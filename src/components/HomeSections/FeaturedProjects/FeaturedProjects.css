@@ -1,8 +1,13 @@
 .slider h3, .slider h5 {
     padding: 5px 20px;
-    width: 100%;
+    /*width: 100%;*/
     color: #fff;
-    font-weight: 800;
+    font-weight: bold;
+
+    /*-webkit-text-fill-color: #fff; !* Will override color (regardless of order) *!*/
+    /*-webkit-text-stroke-width: 1px;*/
+    /*-webkit-text-stroke-color: #fff;*/
+    /*width: auto;*/
 }
 
 .slider img {
@@ -16,14 +21,43 @@
     background-color: #00001B;
 }
 
+.slider .caption {
+    padding-top: 100px;
+}
+
 .slider .indicators .indicator-item.active {
     background-color: #fff;
 }
 
+.indicators {
+    top: 80%;
+    left: 50%;
+    bottom: 20%;
+    right: 50%;
+    transform: translateX(0px) translateY(0px);
+    /*margin: 1.9466666667rem 0 1.168rem 0;*/
+}
+
 .slider .indicators .indicator-item {
-    margin-bottom: 100px;
     background-color: #00001B;
     border: 3px solid #fff;
+    z-index: 6;
+    position: relative;
+}
+
+.featured-section-title {
+    position: absolute;
+    background-color: #00001B;
+    top: 90px;
+    left: 15%;
+    /*opacity: 0.5;*/
+    padding: 10px;
+    z-index: 10;
+    color: white;
+}
+
+#featured_projects_wrapper {
+    position: relative;
 }
 
 #featured_projects {
@@ -34,3 +68,4 @@
     left: 0;
     right: 0;
 }
+

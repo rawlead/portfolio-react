@@ -18,7 +18,7 @@ const FactsSec = () => (
                         <h6><i className="fas fa-walking "> </i> I like to walk</h6>
                         <h6><i className="fas fa-user-ninja"> </i> I like to try new things</h6>
                     </div>
-                    <div className="col s12 m6 hide-on-small-only">
+                    <div className="col s12 m6 ">
                         <img src={rocketImg} className="facts-img" alt="Rocket"/>
                     </div>
                 </div>

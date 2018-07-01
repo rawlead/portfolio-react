@@ -5,9 +5,9 @@ import parallaxImg2__balloon from '../../assets/balloon.png';
 import parallaxImg2__bottom from '../../assets/night-bottom.png';
 import skillsSecImg__bottom from '../../assets/night-edge.png';
 
-import project_img_1 from '../../assets/portalis.jpg';
-import project_img_2 from '../../assets/filterapp.jpg';
-import project_img_3 from '../../assets/santravels.jpg';
+import project_img_1 from '../../assets/project-1-blur.jpg';
+import project_img_2 from '../../assets/project-2-blur.jpg';
+import project_img_3 from '../../assets/project-3-blur.jpg';
 import footer_img from '../../assets/ny.png';
 
 import Navbar from '../../components/Navbar';

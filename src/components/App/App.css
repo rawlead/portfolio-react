@@ -5,7 +5,10 @@ blockquote {
     font-weight: bold;
 }
 
-
+body, html {
+    padding: 0;
+    margin: 0;
+}
 .fixed-action-btn .btn-floating {
     background-color: #143056;
 }

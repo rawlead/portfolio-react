@@ -3,4 +3,6 @@
     background-size: contain;
     position: relative;
     z-index: 3;
+    padding-top: 50px;
+
 }
