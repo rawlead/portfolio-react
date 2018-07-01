@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09fd01b4-d52c-47e5-854f-7dbd908a8666" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/facts-edge-top.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/facts-edge-top.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/night.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/night.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/rocket.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/rocket.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeSections/FactsSec/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSections/FactsSec/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/FeaturedProjects.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/FeaturedProjects.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeSections/InfoSec/InfoSec.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSections/InfoSec/InfoSec.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeSections/Skills/Skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeSections/Skills/Skills.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -31,32 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FeaturedProjects.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/FeaturedProjects.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FactsSec.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FactsSec.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HomeSections/Skills/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="641">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="528">
+              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -64,20 +33,11 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FactsSec/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state relative-caret-position="336">
+              <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InfoSec.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/HomeSections/InfoSec/InfoSec.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -96,15 +56,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="432">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="505">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -156,10 +107,10 @@
         <option value="$PROJECT_DIR$/src/components/HomeSections/Skills/index.js" />
         <option value="$PROJECT_DIR$/src/components/HomeSections/Skills/Skills.css" />
         <option value="$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/index.js" />
-        <option value="$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css" />
         <option value="$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/FeaturedProjects.css" />
-        <option value="$PROJECT_DIR$/src/components/HomeSections/FactsSec/index.js" />
         <option value="$PROJECT_DIR$/src/components/HomeSections/InfoSec/InfoSec.css" />
+        <option value="$PROJECT_DIR$/src/components/HomeSections/FactsSec/index.js" />
+        <option value="$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css" />
       </list>
     </option>
   </component>
@@ -178,8 +129,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="284" />
-    <option name="y" value="113" />
+    <option name="x" value="140" />
+    <option name="y" value="76" />
     <option name="width" value="1194" />
     <option name="height" value="821" />
   </component>
@@ -422,15 +373,15 @@
       <updated>1530383226111</updated>
       <workItem from="1530383227668" duration="21222000" />
       <workItem from="1530455511039" duration="9403000" />
-      <workItem from="1530470923987" duration="4831000" />
+      <workItem from="1530470923987" duration="5237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35456000" />
+    <option name="totallyTimeSpent" value="35862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="113" width="1194" height="821" extended-state="0" />
+    <frame x="140" y="76" width="1194" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -600,13 +551,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assets/night.gif" />
-    <entry file="file://$PROJECT_DIR$/src/components/Navbar/Navbar.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomeSections/Introduction/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
@@ -709,13 +653,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/ParallaxSec/ParallaxSec.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomeSections/ParallaxSec/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
@@ -736,38 +673,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/Education/Education.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Home/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="7" column="60" lean-forward="true" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Scrollspy/Scrollspy.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -781,6 +690,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Navbar/Navbar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/ParallaxSec/ParallaxSec.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Scrollspy/Scrollspy.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomeSections/Skills/Skills.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -788,34 +725,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css">
+    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/FeaturedProjects.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+        <state relative-caret-position="384">
+          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FeaturedProjects/FeaturedProjects.css">
+    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/Education/Education.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="128">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/App/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/InfoSec/InfoSec.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FactsSec/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        <state relative-caret-position="336">
+          <caret line="21" column="53" lean-forward="true" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/InfoSec/InfoSec.css">
+    <entry file="file://$PROJECT_DIR$/src/components/HomeSections/FactsSec/FactsSec.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="528">
+          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
         </state>
       </provider>
     </entry>

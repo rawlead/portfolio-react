@@ -16,7 +16,7 @@ const Skills = (props) => (
                         </tr>
                         <tr>
                             <td>Technologies:</td>
-                            <td>JavaScript, HTML5, CSS3, jQuery, Vue.js, Bootstrap, XML, REST</td>
+                            <td>JavaScript, HTML5, CSS3, jQuery, Vue.js, Bootstrap, XML, REST, ReactJS</td>
                         </tr>
                         <tr>
 
