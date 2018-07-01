@@ -3,6 +3,10 @@
     margin: 5px 3px;
 }
 
+footer {
+    z-index: 3;
+}
+
 .social-link:hover {
     opacity: 0.75;
     transition: opacity 0.5s;

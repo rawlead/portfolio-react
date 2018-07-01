@@ -2,6 +2,7 @@ import React from 'react';
 import './Skills.css';
 
 const Skills = (props) => (
+    <div>
     <div id="skills" className="section scrollspy">
         <div className="container">
             <div className="row">
@@ -52,7 +53,9 @@ const Skills = (props) => (
             </div>
         </div>
         <br />
-            <img src={props.skillsSectionImgBottom} className="responsive-img night__edge--img" alt="" />
+    </div>
+        <img src={props.skillsSectionImgBottom} className="responsive-img night__edge--img" alt="" />
+
     </div>
 );
 

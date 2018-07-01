@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import parallaxImg from '../../assets/night.png';
 import parallaxImg2__balloon from '../../assets/balloon.png';
 import parallaxImg2__bottom from '../../assets/night-bottom.png';
-import skillsSecImg__bottom from '../../assets/night-edge.jpg';
+import skillsSecImg__bottom from '../../assets/night-edge.png';
 
 import project_img_1 from '../../assets/portalis.jpg';
 import project_img_2 from '../../assets/filterapp.jpg';
@@ -32,6 +32,9 @@ const socialColors = {
 };
 
 class Home extends Component {
+    componentDidMount() {
+
+    }
     render() {
         return (
             <div>

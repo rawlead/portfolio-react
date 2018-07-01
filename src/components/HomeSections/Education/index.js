@@ -2,6 +2,8 @@ import React from 'react';
 import './Education.css';
 
 const Education = (props) => (
+
+
     <div id="education" className="section scrollspy parallax-container parallax__container__bottom">
         <div className="parallax parallax__bottom">
             <img src={props.parallaxImg} alt="Night"/>

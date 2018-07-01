@@ -1,19 +1,19 @@
 #education {
-    background-color: #212121;
+    background-color: #fff;
     color: #fff;
     padding: 50px 0;
     margin-bottom: 0px;
-
-    clip-path: polygon(
-            0 12%, /* left top */ 100% 0, /* right top */ 100% 100%, /* right bottom */ 0 100% /* left bottom */
-    );
-    -webkit-clip-path: polygon(
-            0 12%, /* left top */ 100% 0, /* right top */ 100% 100%, /* right bottom */ 0 100% /* left bottom */
-    );
+    z-index: 3;
 }
 .education-img {
     max-height: 350px;
     margin: 70px 0;
+}
+
+#education:before {
+    height: 200px;
+    width: 100%;
+
 }
 
 

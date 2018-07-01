@@ -4,11 +4,13 @@
     top: 64px;
     display: inline;
     margin-right: 12%;
-    z-index: 2;
+    z-index: 5;
 }
 
+
+
 .table-of-contents a {
-    color: #899eb1;
+    color: #627080;
 }
 
 .table-of-contents a.active {

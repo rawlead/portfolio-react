@@ -7,13 +7,16 @@ document.addEventListener('DOMContentLoaded', function() {
     M.ScrollSpy.init(elems);
 });
 
+
+
+
 const Scrollspy = () => (
     <div className="hide-on-med-and-down sticky right spy reverse-colors">
         <ul className="section table-of-contents ">
             <li><a href="#introduction">Home</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#featured_projects">Featured</a></li>
+            <li><a href="#featured_projects_wrapper">Featured</a></li>
             <li><a href="#facts">Facts</a></li>
             <li><a href="#info">Info</a></li>
             <li><a href="#contact">Contact</a></li>
