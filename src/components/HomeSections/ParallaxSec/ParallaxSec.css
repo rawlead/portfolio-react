@@ -1,0 +1,30 @@
+.parallax__container__top {
+    height: 300px;
+}
+
+
+.parallax__container__bottom {
+    height: 600px;
+}
+
+.parallax img {
+    max-width: 100%;
+}
+
+.parallax__top {
+    clip-path: polygon(
+            0 0, /* left top */ 100% 0, /* right top */ 100% 80%, /* right bottom */ 0 100% /* left bottom */
+    );
+    -webkit-clip-path: polygon(
+            0 0, /* left top */ 100% 0, /* right top */ 100% 80%, /* right bottom */ 0 100% /* left bottom */
+    );
+}
+
+.parallax__container__top .parallax-caption {
+    margin-top: 90px;
+}
+
+
+.parallax-caption {
+    position: relative;
+}

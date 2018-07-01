@@ -1,0 +1,33 @@
+#education {
+    background-color: #212121;
+    color: #fff;
+    padding: 50px 0;
+    margin-bottom: 0px;
+
+    clip-path: polygon(
+            0 12%, /* left top */ 100% 0, /* right top */ 100% 100%, /* right bottom */ 0 100% /* left bottom */
+    );
+    -webkit-clip-path: polygon(
+            0 12%, /* left top */ 100% 0, /* right top */ 100% 100%, /* right bottom */ 0 100% /* left bottom */
+    );
+}
+.education-img {
+    max-height: 350px;
+    margin: 70px 0;
+}
+
+
+.night-bottom {
+    position: absolute;
+    width: 100%;
+    bottom: -200px;
+    z-index: 1;
+    background: transparent;
+}
+
+
+@media screen and (max-width: 600px) {
+    #education .container {
+        padding-top: 30px;
+    }
+}

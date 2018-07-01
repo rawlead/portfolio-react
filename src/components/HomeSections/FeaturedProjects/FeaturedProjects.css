@@ -1,0 +1,24 @@
+.slider h3, .slider h5 {
+    padding: 5px 20px;
+    width: 100%;
+    color: #fff;
+    font-weight: 800;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    -webkit-text-stroke: 1px #143056;
+}
+
+.slider img {
+    opacity: 0.5;
+    border: 5px solid #143056;
+}
+
+.slider a {
+    background-color: #143056;
+}
+.slider a:hover {
+    background-color: #00001B;
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: #143056;
+}

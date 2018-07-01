@@ -1,0 +1,39 @@
+.main-img {
+    position: relative;
+    background: #fff url('../../../assets/main.jpg') no-repeat;
+    z-index: -1;
+    background-size: cover;
+    min-height: 400px;
+    overflow: hidden;
+    clip-path: polygon(
+            0 5%, /* left top */ 100% 0, /* right top */ 100% 95%, /* right bottom */ 0 100% /* left bottom */
+    );
+    -webkit-clip-path: polygon(
+            0 5%, /* left top */ 100% 0, /* right top */ 100% 95%, /* right bottom */ 0 100% /* left bottom */
+    );
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #introduction .container {
+        width: 100%;
+    }
+
+    #introduction .row .col:nth-child(2) {
+        padding: 0;
+    }
+
+    #introduction .row .col:nth-child(1) {
+        padding: 0 5%;
+    }
+
+    .main-img {
+        clip-path: polygon(
+                0 15%, /* left top */ 100% 0, /* right top */ 100% 85%, /* right bottom */ 0 100% /* left bottom */
+        );
+        -webkit-clip-path: polygon(
+                0 15%, /* left top */ 100% 0, /* right top */ 100% 85%, /* right bottom */ 0 100% /* left bottom */
+        );
+    }
+}

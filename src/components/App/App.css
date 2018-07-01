@@ -1,0 +1,11 @@
+blockquote {
+    border-left-color: #fff;
+}
+.bold {
+    font-weight: bold;
+}
+
+
+.fixed-action-btn .btn-floating {
+    background-color: #143056;
+}
