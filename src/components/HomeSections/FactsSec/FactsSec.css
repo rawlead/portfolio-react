@@ -1,12 +1,16 @@
-.facts-img {
+.facts-img, .facts-img-background, .facts-img-bottom {
     padding: 0;
     object-fit: scale-down;
     max-height: 300px;
     position: absolute;
     bottom: -1px;
-    z-index: -1;
-    /*left: 50vw;*/
-    display: block;
+    z-index: 3;
+}
+
+.facts-img-background {
+    /*position: relative;*/
+    /*height: 100%;*/
+    /*overflow: hidden;*/
 }
 
 .facts-top-edge-img {

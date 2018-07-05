@@ -1,5 +1,7 @@
 import React from 'react';
 import rocketImg from '../../../assets/rocket.png';
+import rocketSmokeImg from '../../../assets/rocket-smoke.png';
+import rocketStarsImg from '../../../assets/rocket-stars.png';
 import facts_edge_img from '../../../assets/facts-edge-top.png';
 import './FactsSec.css';
 
@@ -19,6 +21,11 @@ const FactsSec = () => (
                         <h6><i className="fas fa-user-ninja"> </i> I like to try new things</h6>
                     </div>
                     <div className="col s12 m6 ">
+                        <img src={rocketStarsImg} className="facts-img-background" alt="Stars"/>
+
+                        <img src={rocketSmokeImg} data-aos="zoom-in-up"
+                             data-aos-duration="3000" className="facts-img-bottom" alt="Smoke"/>
+
                         <img src={rocketImg} className="facts-img" data-aos="fade-up"
                              data-aos-duration="3000" alt="Rocket"/>
                     </div>
