@@ -5,6 +5,7 @@
     background-size: cover;
     min-height: 400px;
     overflow: hidden;
+
     clip-path: polygon(
             0 5%, /* left top */ 100% 0, /* right top */ 100% 95%, /* right bottom */ 0 100% /* left bottom */
     );

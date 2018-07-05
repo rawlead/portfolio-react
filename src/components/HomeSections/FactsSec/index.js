@@ -5,7 +5,7 @@ import './FactsSec.css';
 
 const FactsSec = () => (
     <div>
-        <img src={facts_edge_img} className="facts-top-edge-img" alt="Edge"/>
+        <img src={facts_edge_img} className="facts-top-edge-img"  alt="Edge"/>
         <div id="facts" className="section scrollspy">
             <div className="container">
                 <div className="row">
@@ -19,7 +19,8 @@ const FactsSec = () => (
                         <h6><i className="fas fa-user-ninja"> </i> I like to try new things</h6>
                     </div>
                     <div className="col s12 m6 ">
-                        <img src={rocketImg} className="facts-img" alt="Rocket"/>
+                        <img src={rocketImg} className="facts-img" data-aos="fade-up"
+                             data-aos-duration="3000" alt="Rocket"/>
                     </div>
                 </div>
             </div>

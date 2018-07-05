@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.1.0",
+    "aos": "^2.3.2",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
