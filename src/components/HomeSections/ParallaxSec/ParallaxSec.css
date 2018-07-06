@@ -1,11 +1,11 @@
 .parallax__container__top {
-    height: 300px;
+    height: 350px;
     z-index: 3;
 }
 
 
 .parallax__container__bottom {
-    height: 600px;
+    height: 700px;
     background-color: #fff;
 
 }
@@ -16,7 +16,8 @@
 
 
 .parallax-container {
-    background-color: #fff;
+    background-color: #00001B;
+
 }
 
 .parallax__top {

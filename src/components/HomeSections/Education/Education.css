@@ -1,9 +1,11 @@
 #education {
-    background-color: #fff;
+    background-color: #00001B;
     color: #fff;
     padding: 50px 0;
     margin-bottom: 0px;
-    z-index: 3;
+    padding-top: 100px;
+    z-index: 2;
+
 }
 .education-img {
     max-height: 350px;
@@ -11,11 +13,16 @@
 }
 
 #education:before {
-    height: 200px;
+    /*height: 200px;*/
     width: 100%;
-
+    z-index: 1;
 }
 
+
+#education h3, h6 {
+    position: relative;
+    z-index: 5;
+}
 
 .night-bottom {
     position: absolute;

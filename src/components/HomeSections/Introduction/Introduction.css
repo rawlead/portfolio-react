@@ -1,8 +1,14 @@
 .main-img {
-    position: relative;
-    background: #fff url('../../../assets/main.jpg') no-repeat;
+    background: url('../../../assets/main.jpg') no-repeat;
+    background-position: left;
     background-size: cover;
+    width: 48%;
+    position: absolute;
     min-height: 400px;
+    z-index: 2;
+    right: 0;
+    top: -30%;
+    bottom: -20%;
     overflow: hidden;
     clip-path: polygon(
             0 5%, /* left top */ 100% 0, /* right top */ 100% 95%, /* right bottom */ 0 100% /* left bottom */
@@ -15,30 +21,37 @@
 #introduction {
     position: relative;
     z-index: 3;
+    background-color: #00001B;
+    min-height: 30vh;
+    color: #fff;
+}
 
-    background-color: #fff;
+#introduction h3, #introduction h5, #introduction p {
+    -webkit-transform: rotate(-2deg);
 }
 
 @media screen and (max-width: 600px) {
 
+    #introduction h3, #introduction h5, #introduction p {
+        -webkit-transform: rotate(-0deg);
+    }
+
     #introduction .container {
         width: 100%;
+
+        padding-top: 50px;
     }
 
-    #introduction .row .col:nth-child(2) {
-        padding: 0;
-    }
-
-    #introduction .row .col:nth-child(1) {
-        padding: 0 5%;
-    }
 
     .main-img {
+        position: relative;
+        width: 100%;
+        margin-top: 50px;
         clip-path: polygon(
-                0 15%, /* left top */ 100% 0, /* right top */ 100% 85%, /* right bottom */ 0 100% /* left bottom */
+                0 20%, /* left top */ 100% 0, /* right top */ 100% 80%, /* right bottom */ 0 100% /* left bottom */
         );
         -webkit-clip-path: polygon(
-                0 15%, /* left top */ 100% 0, /* right top */ 100% 85%, /* right bottom */ 0 100% /* left bottom */
+                0 20%, /* left top */ 100% 0, /* right top */ 100% 80%, /* right bottom */ 0 100% /* left bottom */
         );
     }
 }

@@ -4,7 +4,7 @@
     max-height: 300px;
     position: absolute;
     bottom: -1px;
-    z-index: -1ć;
+    z-index: -1;
 }
 
 .facts-top-edge-img {
@@ -20,9 +20,10 @@
     /*background-color: #fff;*/
     color: #fff;
     display: block;
-    background: rgb(0,0,27);
-    background: linear-gradient(180deg, rgba(0,0,27,1) 0%, rgba(20,48,86,1) 80%);
+    background: rgb(0, 0, 27);
+    background: linear-gradient(180deg, rgba(0, 0, 27, 1) 0%, rgba(20, 48, 86, 1) 80%);
     padding-bottom: 50px;
+
 }
 
 @media screen and (max-width: 600px) {

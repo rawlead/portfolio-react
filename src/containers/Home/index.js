@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 
-import parallaxImg from '../../assets/night.png';
+import parallaxImg1 from '../../assets/parallax-night-1.png';
+import parallaxImg2 from '../../assets/parallax-night-2.png';
+
 import parallaxImg2__balloon from '../../assets/balloon.png';
 import parallaxImg2__bottom from '../../assets/night-bottom.png';
 import skillsSecImg__bottom from '../../assets/night-edge.png';
@@ -41,7 +43,7 @@ class Home extends Component {
                 <Navbar/>
 
                 <ParallaxSec
-                    parallaxImgUrl={parallaxImg}
+                    parallaxImgUrl={parallaxImg1}
                 />
 
                 <Scrollspy/>
@@ -49,7 +51,7 @@ class Home extends Component {
                 <Introduction/>
 
                 <Education
-                    parallaxImg={parallaxImg}
+                    parallaxImg={parallaxImg2}
                     parallaxImgBalloon={parallaxImg2__balloon}
                     parallaxImgBottom={parallaxImg2__bottom}
                 />

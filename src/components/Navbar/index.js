@@ -22,7 +22,10 @@ class NavbarTop extends Component {
         this.styleTopnavOnScroll();
     }
 
+
     styleTopnavOnScroll() {
+        var intro_scrollspy = document.getElementById("introduction-scrollspy");
+        var scrollspy_section = document.getElementById("scroll-spy");
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             var nav = document.getElementById("nav");
@@ -31,8 +34,17 @@ class NavbarTop extends Component {
             } else {
                 nav.classList.remove("scrolled");
             }
+
+            // Hide scroll spy section if the top one
+            if (intro_scrollspy.classList.contains("active"))
+                scrollspy_section.classList.add("hidden");
+            else
+                scrollspy_section.classList.remove("hidden")
+
+
         }
     }
+
 
     render() {
         return (

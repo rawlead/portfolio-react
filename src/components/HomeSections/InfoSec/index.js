@@ -1,11 +1,20 @@
 import React from 'react';
 import './InfoSec.css';
 
+(function() {
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = '//cdn.youracclaim.com/assets/utilities/embed.js';
+    var o = document.getElementsByTagName('script')[0];
+    o.parentNode.insertBefore(s, o);
+})();
+
 const InfoSec = () => (
     <div id="info" className="section scrollspy">
         <div className="container">
             <div className="row">
-                <div className="col s12 m11">
+                <div className="col s12 m8">
                     <h3>More info</h3>
                     <h6>junior | intern.</h6>
                     <div className="divider"> </div>
@@ -22,9 +31,14 @@ const InfoSec = () => (
                     <div className="divider"> </div>
                     <h6>able to thrive in a fast-paced and schedule-driven environment.</h6>
                 </div>
+                <div className="col s12 m2">
+                    <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="61136f12-504c-475c-941f-7657fdd8c37e"></div>
+                </div>
             </div>
         </div>
     </div>
 )
+
+
 
 export default InfoSec;
