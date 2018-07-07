@@ -6,12 +6,12 @@ const Education = (props) => (
 
     <div id="education" className="section scrollspy parallax-container parallax__container__bottom">
         <div className="parallax parallax__bottom">
-            <img src={props.parallaxImg} alt="Night"/>
+            <img src={ props.parallaxImg} alt="Night"/>
         </div>
         <div className="container">
             <div className="row">
                 <div className="col s12 l5 hide-on-med-and-down ">
-                    <img src={props.parallaxImgBalloon} className=" education-img" alt="Balloon"/>
+                    <img src={props.parallaxImgBalloon} className="education-img" alt="Balloon"/>
                 </div>
                 <div className="col s12 l5 offset-l1 caption parallax-caption">
                     <h3>Education</h3>

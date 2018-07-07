@@ -15,7 +15,7 @@ const ParallaxSec = (props) => (
 
         <div className="caption parallax-caption center-align">
             <h3 className="white-text">Ivan Shyrai</h3>
-            <h6 className="white-text">Personal website</h6>
+            <h6 className="white-text">Intern | Junior Web Developer</h6>
         </div>
     </div>
 

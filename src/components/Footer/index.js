@@ -1,6 +1,14 @@
 import React from 'react';
 import './Footer.css';
 
+const socialColors = {
+    "facebook": {backgroundColor: '#3b5999'},
+    "github": {backgroundColor: '#000'},
+    "instagram": {backgroundColor: '#e4405f'},
+    "linkedin": {backgroundColor: '#0077B5'},
+    "email": {backgroundColor: '#000'},
+}
+
 const Footer = (props) => (
     <footer className="page-footer section scrollspy" id="contact">
 
@@ -12,7 +20,7 @@ const Footer = (props) => (
                     <h3>get in touch</h3>
                     <ul>
                         <li className="social-link">
-                            <a style={props.facebookColor}
+                            <a style={socialColors.facebook}
                                className="waves-effect btn"
                                href="https://www.facebook.com/q0h44"
                                target="_blank"
@@ -21,7 +29,7 @@ const Footer = (props) => (
                             </a>
                         </li>
                         <li className="social-link">
-                            <a style={props.githubColor}
+                            <a style={socialColors.github}
                                className="waves-effect btn black"
                                href="https://github.com/rawlead"
                                target="_blank"
@@ -30,7 +38,7 @@ const Footer = (props) => (
                             </a>
                         </li>
                         <li className="social-link">
-                            <a style={props.instagramColor}
+                            <a style={socialColors.instagram}
                                className="waves-effect btn"
                                href="https://www.instagram.com/ivanshyrai/"
                                target="_blank"
@@ -39,7 +47,7 @@ const Footer = (props) => (
                             </a>
                         </li>
                         <li className="social-link">
-                            <a style={props.linkedinColor}
+                            <a style={socialColors.linkedin}
                                className="waves-effect btn"
                                href="https://www.linkedin.com/in/ivan-shyrai/"
                                target="_blank"
@@ -48,7 +56,7 @@ const Footer = (props) => (
                             </a>
                         </li>
                         <li className="social-link">
-                            <a style={props.emailColor}
+                            <a style={socialColors.email}
                                className="waves-effect black btn"
                                href="mailto:ivanshyrai@mail.com"
                                target="_blank"

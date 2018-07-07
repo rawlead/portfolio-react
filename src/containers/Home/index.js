@@ -25,14 +25,6 @@ import Footer from '../../components/Footer';
 import Scrollspy from '../../components/Scrollspy';
 import FixedActionButton from '../../components/FixedActionButton';
 
-const socialColors = {
-    "facebook": {backgroundColor: '#3b5999'},
-    "github": {backgroundColor: '#000'},
-    "instagram": {backgroundColor: '#e4405f'},
-    "linkedin": {backgroundColor: '#0077B5'},
-    "email": {backgroundColor: '#000'},
-};
-
 class Home extends Component {
     componentDidMount() {
 
@@ -70,21 +62,9 @@ class Home extends Component {
 
                 <InfoSec/>
 
-                <FixedActionButton
-                    facebookColor={socialColors.facebook}
-                    githubColor={socialColors.github}
-                    instagramColor={socialColors.instagram}
-                    linkedinColor={socialColors.linkedin}
-                    emailColor={socialColors.email}
-                />
+                <FixedActionButton/>
 
-                <Footer
-                    facebookColor={socialColors.facebook}
-                    githubColor={socialColors.github}
-                    instagramColor={socialColors.instagram}
-                    linkedinColor={socialColors.linkedin}
-                    emailColor={socialColors.email}
-                >
+                <Footer>
                     <img src={footer_img} className="img__before__footer" alt="Footer"/>
                 </Footer>
             </div>

@@ -1,33 +1,36 @@
 .main-img {
-    background: url('../../../assets/main.jpg') no-repeat;
-    background-position: left;
+    background: url('../../../assets/main.jpg') no-repeat left;
     background-size: cover;
-    width: 48%;
+    width: 30%;
     position: absolute;
     min-height: 400px;
-    z-index: 2;
-    right: 0;
+    right: 21%;
+    z-index: -1;
     top: -30%;
-    bottom: -20%;
+    bottom: -25%;
     overflow: hidden;
-    clip-path: polygon(
-            0 5%, /* left top */ 100% 0, /* right top */ 100% 95%, /* right bottom */ 0 100% /* left bottom */
-    );
-    -webkit-clip-path: polygon(
-            0 5%, /* left top */ 100% 0, /* right top */ 100% 95%, /* right bottom */ 0 100% /* left bottom */
-    );
+    /*border-top-left-radius: 50%;*/
+    /*border-bottom-right-radius: 50%;*/
+    /*clip-path: polygon(*/
+            /*0 5%, !* left top *! 100% 0, !* right top *! 100% 95%, !* right bottom *! 0 100% !* left bottom *!*/
+    /*);*/
+    /*-webkit-clip-path: polygon(*/
+            /*0 0, !* left top *! 100% 5%, !* right top *! 100% 100%, !* right bottom *! 0 95% !* left bottom *!*/
+    /*);*/
+    /*-webkit-transform: rotate(-8deg);*/
+
 }
 
 #introduction {
     position: relative;
     z-index: 3;
-    background-color: #00001B;
+    background-color: #fff;
     min-height: 30vh;
-    color: #fff;
+    color: #143056;
 }
 
 #introduction h3, #introduction h5, #introduction p {
-    -webkit-transform: rotate(-2deg);
+    /*-webkit-transform: rotate(-2deg);*/
 }
 
 @media screen and (max-width: 600px) {
@@ -38,7 +41,6 @@
 
     #introduction .container {
         width: 100%;
-
         padding-top: 50px;
     }
 
@@ -47,6 +49,8 @@
         position: relative;
         width: 100%;
         margin-top: 50px;
+        right: 0;
+        left: 0;
         clip-path: polygon(
                 0 20%, /* left top */ 100% 0, /* right top */ 100% 80%, /* right bottom */ 0 100% /* left bottom */
         );

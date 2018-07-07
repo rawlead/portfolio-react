@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 const Scrollspy = () => (
-    <div className="hide-on-med-and-down sticky right spy reverse-colors" id="scroll-spy">
+    <div className="hide-on-med-and-down sticky right bottom-sheet spy reverse-colors" id="scroll-spy">
         <ul className="section table-of-contents ">
             <li><a id="introduction-scrollspy" href="#introduction">Home</a></li>
             <li><a href="#education">Education</a></li>

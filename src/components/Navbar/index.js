@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import M from 'materialize-css';
 import './Navbar.css';
+import {Link} from 'react-router-dom';
+
 
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -24,8 +26,8 @@ class NavbarTop extends Component {
 
 
     styleTopnavOnScroll() {
-        var intro_scrollspy = document.getElementById("introduction-scrollspy");
-        var scrollspy_section = document.getElementById("scroll-spy");
+        // var intro_scrollspy = document.getElementById("introduction-scrollspy");
+        // var scrollspy_section = document.getElementById("scroll-spy");
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             var nav = document.getElementById("nav");
@@ -36,10 +38,10 @@ class NavbarTop extends Component {
             }
 
             // Hide scroll spy section if the top one
-            if (intro_scrollspy.classList.contains("active"))
-                scrollspy_section.classList.add("hidden");
-            else
-                scrollspy_section.classList.remove("hidden")
+            // if (intro_scrollspy.classList.contains("active"))
+            //     scrollspy_section.classList.add("hidden");
+            // else
+            //     scrollspy_section.classList.remove("hidden")
 
 
         }
@@ -56,8 +58,8 @@ class NavbarTop extends Component {
                                 className="material-icons">menu</i></a>
                             <a href="/" className="brand-logo center">Ivan Shyrai</a>
                             <ul className="left hide-on-med-and-down">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/">Projects</a></li>
+                                <li><Link to="/">Home</Link></li>
+                                <li><Link to="/overview">Overview</Link></li>
                                 <li><a href="/">Dev</a></li>
                                 <li><a href="/">More</a></li>
                             </ul>

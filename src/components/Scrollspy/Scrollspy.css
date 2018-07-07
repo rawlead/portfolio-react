@@ -4,9 +4,11 @@
     top: 64px;
     display: inline;
     margin-right: 12%;
-    z-index: 5;
 }
 
+.spy {
+    z-index: 5;
+}
 
 .table-of-contents a {
     color: #627080;
