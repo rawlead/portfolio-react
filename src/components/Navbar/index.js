@@ -58,8 +58,8 @@ class NavbarTop extends Component {
                                 className="material-icons">menu</i></a>
                             <a href="/" className="brand-logo center">Ivan Shyrai</a>
                             <ul className="left hide-on-med-and-down">
-                                <li><Link to="/">Home</Link></li>
-                                <li><Link to="/overview">Overview</Link></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/overview">Overview</a></li>
                                 <li><a href="/">Dev</a></li>
                                 <li><a href="/">More</a></li>
                             </ul>

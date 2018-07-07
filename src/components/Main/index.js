@@ -7,7 +7,7 @@ import Welcome from '../../containers/Welcome';
 const Main = () => (
     <Switch>
         <Route exact path="/" component={Welcome} />
-        <Route path="/overview" component={Home} />
+        <Route path='/overview' component={Home} />
     </Switch>
 );
 

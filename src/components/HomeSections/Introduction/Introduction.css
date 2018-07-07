@@ -29,21 +29,11 @@
     color: #143056;
 }
 
-#introduction h3, #introduction h5, #introduction p {
-    /*-webkit-transform: rotate(-2deg);*/
-}
-
 @media screen and (max-width: 600px) {
-
-    #introduction h3, #introduction h5, #introduction p {
-        -webkit-transform: rotate(-0deg);
-    }
-
     #introduction .container {
         width: 100%;
         padding-top: 50px;
     }
-
 
     .main-img {
         position: relative;

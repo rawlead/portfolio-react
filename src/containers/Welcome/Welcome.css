@@ -1,0 +1,42 @@
+
+.home-page-nav {
+    font-family: 'Roboto Condensed', 'Arial Black';
+    text-align: center;
+    display: block;
+}
+.home-page-nav h2 a {
+    transition: letter-spacing 200ms ease;
+}
+
+.home-page-nav h2 a:hover {
+    opacity: .75;    letter-spacing: 0.1rem;
+
+}
+
+#home-page {
+    background-color: #282324;
+}
+
+.home-page-img {
+    background: url("../../assets/IVAN.png");
+    height: 50vh;
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+    text-align: center;
+    display: block;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+    font-family: 'Roboto Condensed', 'Arial Black';
+    font-weight: 800;
+    font-size: 10rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    position: absolute;
+    color: #282324;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
