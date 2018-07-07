@@ -17,7 +17,7 @@ const socialColors = {
 const FixedActionButton = () => (
     <div className="fixed-action-btn">
         <a className="btn-floating btn-large">
-            <i className="large material-icons">mode_edit</i>
+            <i className="large material-icons">textsms</i>
         </a>
         <ul>
             <li><a style={socialColors.facebook} className=" btn-floating"

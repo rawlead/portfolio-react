@@ -14,8 +14,12 @@
 nav {
     background-color: transparent;
     box-shadow: none;
-    transition: background-color 700ms linear;
+    /*transition: background-color 700ms linear;*/
 
+}
+
+nav .active {
+    color:red;
 }
 
 nav.scrolled, nav:hover {

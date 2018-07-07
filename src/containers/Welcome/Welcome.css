@@ -1,6 +1,6 @@
 
 .home-page-nav {
-    font-family: 'Roboto Condensed', 'Arial Black';
+    font-family: 'Alfa Slab One', cursive;
     text-align: center;
     display: block;
 }
@@ -14,12 +14,14 @@
 }
 
 #home-page {
-    background-color: #282324;
+    background-color: #143056;
+    height: 100vh;
 }
 
 .home-page-img {
     background: url("../../assets/IVAN.png");
-    height: 50vh;
+    height: 48vh;
+    width: 100%;
     background-position: center;
     background-repeat: repeat-x;
     background-size: contain;
@@ -29,14 +31,22 @@
 
 /* Place text in the middle of the image */
 .hero-text {
-    font-family: 'Roboto Condensed', 'Arial Black';
+    font-family: 'Passion One', cursive;
     font-weight: 800;
-    font-size: 10rem;
+    width: 100%;
+    font-size: 10em;
     letter-spacing: 1rem;
-    text-align: center;
     position: absolute;
-    color: #282324;
-    top: 8%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    color: #143056;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+    .hero-text {
+        /*font-size: 6em;*/
+    }
 }

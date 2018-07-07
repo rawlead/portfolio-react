@@ -29,6 +29,13 @@
     color: #143056;
 }
 
+@media screen and (max-width: 992px){
+    .main-img {
+        width: 50%;
+        right: 0;
+    }
+}
+
 @media screen and (max-width: 600px) {
     #introduction .container {
         width: 100%;
@@ -49,3 +56,5 @@
         );
     }
 }
+
+

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import M from 'materialize-css';
 import './Navbar.css';
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 
 
 
@@ -58,8 +58,8 @@ class NavbarTop extends Component {
                                 className="material-icons">menu</i></a>
                             <a href="/" className="brand-logo center">Ivan Shyrai</a>
                             <ul className="left hide-on-med-and-down">
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/overview">Overview</a></li>
+                                <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
+                                <li><NavLink activeClassName="active" to="/overview">Overview</NavLink></li>
                                 <li><a href="/">Dev</a></li>
                                 <li><a href="/">More</a></li>
                             </ul>

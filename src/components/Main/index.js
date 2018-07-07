@@ -1,14 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {BrowserRouter as Router, Switch, Route, Link, Redirect} from "react-router-dom";
 
 import Home from '../../containers/Home';
 import Welcome from '../../containers/Welcome';
 
 const Main = () => (
-    <Switch>
-        <Route exact path="/" component={Welcome} />
-        <Route path='/overview' component={Home} />
-    </Switch>
+    <div>
+        <Route exact path="/" component={Welcome}/>
+        <Route path='/overview' component={Home}/>
+        <Redirect to="/"/>
+    </div>
 );
 
 export default Main;

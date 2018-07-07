@@ -19,4 +19,13 @@ body, html, #root, #root > div {
 
 .fixed-action-btn .btn-floating {
     background-color: #143056;
+    border: 1px solid #00001B;
+}
+
+.sidenav {
+    background-color: #00001B;
+}
+
+.sidenav li>a{
+    color: #fff;
 }
