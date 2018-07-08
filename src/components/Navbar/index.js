@@ -10,6 +10,19 @@ document.addEventListener('DOMContentLoaded', function () {
     M.Sidenav.init(elems);
 });
 
+
+document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.slider');
+    var instances = M.Slider.init(elems, {'duration': 0});
+});
+document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.parallax');
+    M.Parallax.init(elems);
+});
+
+
+
+
 const NavbarSide = () => (
     <ul className="sidenav" id="mobile-demo">
         <li><a href="/">Home</a></li>
@@ -22,6 +35,13 @@ const NavbarSide = () => (
 class NavbarTop extends Component {
     componentDidMount() {
         this.styleTopnavOnScroll();
+
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('.parallax');
+            M.Parallax.init(elems);
+        });
+
     }
 
 
@@ -36,12 +56,6 @@ class NavbarTop extends Component {
             } else {
                 nav.classList.remove("scrolled");
             }
-
-            // Hide scroll spy section if the top one
-            // if (intro_scrollspy.classList.contains("active"))
-            //     scrollspy_section.classList.add("hidden");
-            // else
-            //     scrollspy_section.classList.remove("hidden")
 
 
         }
@@ -59,7 +73,7 @@ class NavbarTop extends Component {
                             <a href="/" className="brand-logo center">Ivan Shyrai</a>
                             <ul className="left hide-on-med-and-down">
                                 <li><NavLink exact activeClassName="active" to="/">Home</NavLink></li>
-                                <li><NavLink activeClassName="active" to="/overview">Overview</NavLink></li>
+                                <li><NavLink activeClassName="active" onClick={window.location.reload} to="/overview">Overview</NavLink></li>
                                 <li><a href="/">Dev</a></li>
                                 <li><a href="/">More</a></li>
                             </ul>

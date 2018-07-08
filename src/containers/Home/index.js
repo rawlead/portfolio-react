@@ -25,6 +25,7 @@ import Footer from '../../components/Footer';
 import Scrollspy from '../../components/Scrollspy';
 import FixedActionButton from '../../components/FixedActionButton';
 
+
 class Home extends Component {
     componentDidMount() {
 
@@ -32,7 +33,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <Navbar/>
+                {/*<Navbar/>*/}
 
                 <ParallaxSec
                     parallaxImgUrl={parallaxImg1}

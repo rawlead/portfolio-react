@@ -7,17 +7,34 @@ import AOS from 'aos/dist/aos';
 
 import './App.css';
 
-import Main from '../Main';
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+
+// import Main from '../Main';
+import Welcome from "../../containers/Welcome";
+import Home from "../../containers/Home";
+import Navbar from "../../components/Navbar";
+
+
+
 
 class App extends Component {
     componentDidMount() {
         AOS.init();
     }
+
     render() {
         return (
-            <div>
-                <Main/>
-            </div>
+
+            <Router>
+                <div>
+                    <Navbar/>
+                    <Switch>
+                        <Route exact path="/" component={Welcome}/>
+                        <Route exact path='/overview' component={Home}/>
+                    </Switch>
+                </div>
+            </Router>
+
         );
     }
 }

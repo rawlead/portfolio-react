@@ -7,10 +7,14 @@ import './Welcome.css'
 
 
 class Welcome extends Component {
+
+    componentDidMount() {
+
+    }
     render() {
         return (
             <div id="home-page" style={{minHeight: '100%'}}>
-                <Navbar/>
+                {/*<Navbar/>*/}
                 <div className="row">
                         <h1 className="hero-text">IVAN</h1>
                         <div className="home-page-img center-align"> </div>

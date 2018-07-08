@@ -3,11 +3,6 @@ import './FeaturedProjects.css';
 import M from 'materialize-css';
 
 
-document.addEventListener('DOMContentLoaded', function () {
-    var elems = document.querySelectorAll('.slider');
-    var instances = M.Slider.init(elems, {'duration': 0});
-});
-
 const FeaturedProjects = (props) => (
 
     <div id="featured_projects_wrapper" className="section scrollspy">

@@ -4,7 +4,8 @@
 }
 
 footer {
-    z-index: 3;
+    z-index: 5;
+
 }
 
 .social-link:hover {
@@ -19,7 +20,6 @@ footer {
 
 .page-footer {
     background-color: #00001B;
-    height: 100%;
     position: relative;
     padding-top: 0;
     margin-top: 0;
