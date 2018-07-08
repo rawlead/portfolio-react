@@ -12,20 +12,20 @@ const Skills = (props) => (
                         <tbody>
                         <tr data-aos="fade-right">
                             <td>Programming languages:</td>
-                            <td>Java 8, SQL</td>
+                            <td>Java 8 / SQL</td>
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Technologies:</td>
-                            <td>JavaScript, HTML5, CSS3, jQuery, Vue.js, Bootstrap, XML, REST, ReactJS</td>
+                            <td>JavaScript / HTML5 / CSS3 / jQuery / Vue.js / Bootstrap / REST / ReactJS</td>
                         </tr>
                         <tr data-aos="fade-right">
 
                             <td>Frameworks</td>
-                            <td>Spring Framework (MVC, Data, Security), Hibernate ORM</td>
+                            <td>Spring Framework (MVC, Data, Security) / Hibernate ORM</td>
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Databases:</td>
-                            <td>MySQL, PostgreSQL</td>
+                            <td>MySQL / PostgreSQL</td>
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Version Control Systems:</td>
@@ -33,7 +33,7 @@ const Skills = (props) => (
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Build tools:</td>
-                            <td>Gradle, Maven</td>
+                            <td>Gradle / Maven</td>
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Cloud computing:</td>
@@ -41,11 +41,11 @@ const Skills = (props) => (
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Tools:</td>
-                            <td>IntelliJ IDEA, VSC, Microsoft Office (Word, Excel, PowerPoint)</td>
+                            <td>IntelliJ IDEA / VSC / Microsoft Office (Word, Excel, PowerPoint)</td>
                         </tr>
                         <tr data-aos="fade-right">
                             <td>Operating systems:</td>
-                            <td>macOS, Linux, Windows XP/7/8/10</td>
+                            <td>macOS / Linux / Windows</td>
                         </tr>
                         </tbody>
                     </table>

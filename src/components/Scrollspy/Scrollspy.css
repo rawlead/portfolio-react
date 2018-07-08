@@ -10,18 +10,19 @@
 
 .table-of-contents a {
     color: #627080;
+    font-weight: bolder;
 }
 
 .table-of-contents a.active {
-    border-left-color: #899eb1 ;
-}
+    border-left-color: #F6B34E ;
+    color: #F6B34E;
+    font-weight: bolder;
 
-.table-of-contents a.hover {
-    color: #5f697a;
 }
-
 
 .table-of-contents a:hover {
-    border-left-color: #5f697a;
+    color: #F6B34E;
+    border-left-color: #F6B34E;
 
 }
+

@@ -3,9 +3,9 @@ import rocketImg from '../../../assets/rocket.png';
 import rocketSmokeImg from '../../../assets/rocket-smoke.png';
 import rocketStarsImg from '../../../assets/rocket-stars.png';
 import facts_edge_img from '../../../assets/facts-edge-top.png';
-import './FactsSec.css';
+import './Facts.css';
 
-const FactsSec = () => (
+const Facts = () => (
     <div>
         <img src={facts_edge_img} className="facts-top-edge-img"  alt="Edge"/>
         <div id="facts" className="section scrollspy">
@@ -21,7 +21,9 @@ const FactsSec = () => (
                         <h6><i className="fas fa-user-ninja"> </i> I like to try new things</h6>
                     </div>
                     <div className="col s12 m6 ">
-                        <img src={rocketStarsImg} className="facts-img-background" alt="Stars"/>
+                        <img src={rocketStarsImg} className="facts-img-background" alt="Stars"
+                             data-aos="fade-down"
+                             data-aos-duration="3000" />
 
                         <img src={rocketSmokeImg} data-aos="zoom-in-up"
                              data-aos-duration="3000" className="facts-img-bottom" alt="Smoke"/>
@@ -36,4 +38,4 @@ const FactsSec = () => (
 
 );
 
-export default FactsSec;
+export default Facts;

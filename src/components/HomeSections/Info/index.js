@@ -1,5 +1,5 @@
 import React from 'react';
-import './InfoSec.css';
+import './Info.css';
 
 (function() {
     var s = document.createElement('script');
@@ -10,7 +10,7 @@ import './InfoSec.css';
     o.parentNode.insertBefore(s, o);
 })();
 
-const InfoSec = () => (
+const Info = () => (
     <div id="info" className="section scrollspy">
         <div className="container">
             <div className="row">
@@ -41,4 +41,4 @@ const InfoSec = () => (
 
 
 
-export default InfoSec;
+export default Info;

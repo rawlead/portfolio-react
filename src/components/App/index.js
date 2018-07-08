@@ -9,13 +9,9 @@ import './App.css';
 
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
-// import Main from '../Main';
-import Welcome from "../../containers/Welcome";
 import Home from "../../containers/Home";
+import AboutMe from "../../containers/AboutMe";
 import Navbar from "../../components/Navbar";
-
-
-
 
 class App extends Component {
     componentDidMount() {
@@ -24,13 +20,12 @@ class App extends Component {
 
     render() {
         return (
-
             <Router>
                 <div>
                     <Navbar/>
                     <Switch>
-                        <Route exact path="/" component={Welcome}/>
-                        <Route exact path='/overview' component={Home}/>
+                        <Route exact path="/" component={Home}/>
+                        <Route exact path='/aboutMe' component={AboutMe}/>
                     </Switch>
                 </div>
             </Router>

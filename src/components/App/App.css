@@ -1,5 +1,5 @@
 blockquote {
-    border-left-color: #fff;
+    border-left-color: #F6B34E;
 }
 
 .bold {
@@ -14,12 +14,32 @@ blockquote {
 body, html  {
     padding: 0;
     margin: 0;
+    height: 100%;
 }
 
-.fixed-action-btn .btn-floating {
-    background-color: #143056;
-    border: 1px solid #00001B;
+#facts i , #featured_projects i {
+    color: #F6B34E;
 }
+
+.fixed-action-btn > a {
+    background-color: #143056;
+    border: 1px solid #F6B34E;
+}
+.fixed-action-btn > a i {
+    color: #F6B34E;
+}
+
+.fixed-action-btn > a:hover {
+    background-color: #F6B34E;
+    border-color: #143056;
+}
+
+.fixed-action-btn > a:hover i {
+    color: #143056;
+
+}
+
+
 
 .sidenav {
     background-color: #00001B;

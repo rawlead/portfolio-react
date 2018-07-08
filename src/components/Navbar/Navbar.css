@@ -14,12 +14,15 @@
 nav {
     background-color: transparent;
     box-shadow: none;
-    /*transition: background-color 700ms linear;*/
+}
+
+nav ul a {
+    color: #fff;
 
 }
 
 nav .active {
-    color:red;
+    color: #F6B34E;
 }
 
 nav.scrolled, nav:hover {

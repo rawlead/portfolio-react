@@ -1,0 +1,46 @@
+
+#home-page {
+    background-color: #143056;
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+
+.home-page-img {
+    height: 48vh;
+    background: url("../../assets/IVAN.png") repeat-x center;
+    background-size: contain;
+    display: block;
+    width: 100%;
+}
+
+.hero-text {
+    font-family: 'Passion One', cursive;
+    font-weight: 800;
+    width: 100%;
+    font-size: 10em;
+    letter-spacing: 1rem;
+    position: absolute;
+    color: #143056;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.home-page-nav {
+    font-family: 'Alfa Slab One', cursive;
+    padding: 5vh 0;
+}
+
+
+.home-page-nav h2 {
+    /*display: block;*/
+}
+
+.home-page-nav h2 a {
+    transition: letter-spacing 200ms ease;
+}
+
+.home-page-nav h2 a:hover {
+    opacity: .75;    letter-spacing: 0.1rem;
+}
