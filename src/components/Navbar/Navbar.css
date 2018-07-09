@@ -10,7 +10,6 @@
     opacity: 0;
 }
 
-
 nav {
     background-color: transparent;
     box-shadow: none;
@@ -18,10 +17,9 @@ nav {
 
 nav ul a {
     color: #fff;
-
 }
 
-nav .active {
+nav .active, .sidenav .active {
     color: #F6B34E;
 }
 
@@ -34,4 +32,12 @@ nav.scrolled, nav:hover {
 
 nav.scrolled .brand-logo {
     opacity: 1;
+}
+
+.sidenav {
+    background-color: #00001B;
+}
+
+.sidenav li>a{
+    color: #fff;
 }

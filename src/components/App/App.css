@@ -14,7 +14,6 @@ blockquote {
 body, html  {
     padding: 0;
     margin: 0;
-    height: 100%;
 }
 
 #facts i , #featured_projects i {
@@ -37,14 +36,4 @@ body, html  {
 .fixed-action-btn > a:hover i {
     color: #143056;
 
-}
-
-
-
-.sidenav {
-    background-color: #00001B;
-}
-
-.sidenav li>a{
-    color: #fff;
 }

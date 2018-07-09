@@ -1,5 +1,7 @@
 import React from 'react';
 import './Footer.css';
+import M from "materialize-css";
+
 
 const socialColors = {
     "facebook": {backgroundColor: '#3b5999'},
@@ -7,83 +9,96 @@ const socialColors = {
     "instagram": {backgroundColor: '#e4405f'},
     "linkedin": {backgroundColor: '#0077B5'},
     "email": {backgroundColor: '#000'},
-}
+};
 
-const Footer = (props) => (
-    <footer className="page-footer section scrollspy" id="contact">
+class Footer extends React.Component {
+    componentDidMount() {
+        M.ScrollSpy.init(this.scrollSpy);
+    }
 
-        {props.children}
+    render() {
+        return (
+            <footer className="page-footer section scrollspy"
+                    id="contact"
+                    ref={(scrollSpy) => {
+                        this.scrollSpy = scrollSpy
+                    }}>
 
-        <div className="container">
-            <div className="row">
-                <div className="col s12 m10">
-                    <h3>get in touch</h3>
-                    <ul>
-                        <li className="social-link">
-                            <a style={socialColors.facebook}
-                               className="waves-effect btn"
-                               href="https://www.facebook.com/q0h44"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                <i className="fab fa-facebook"> </i> facebook
-                            </a>
-                        </li>
-                        <li className="social-link">
-                            <a style={socialColors.github}
-                               className="waves-effect btn black"
-                               href="https://github.com/rawlead"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                <i className="fab fa-github-square"> </i> github
-                            </a>
-                        </li>
-                        <li className="social-link">
-                            <a style={socialColors.instagram}
-                               className="waves-effect btn"
-                               href="https://www.instagram.com/ivanshyrai/"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                <i className="fab fa-instagram"> </i> instagram
-                            </a>
-                        </li>
-                        <li className="social-link">
-                            <a style={socialColors.linkedin}
-                               className="waves-effect btn"
-                               href="https://www.linkedin.com/in/ivan-shyrai/"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                <i className="fab fa-linkedin"> </i> linkedin
-                            </a>
-                        </li>
-                        <li className="social-link">
-                            <a style={socialColors.email}
-                               className="waves-effect black btn"
-                               href="mailto:ivanshyrai@mail.com"
-                               target="_blank"
-                               rel="noopener noreferrer">
-                                <i className="fas fa-envelope"> </i> email
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                {this.props.children}
 
-                <div className="col s12 m2">
-                    <h3 className="white-text"><i className="far fa-compass fa-spin"> </i></h3>
-                    <ul>
-                        <li><a className="grey-text text-lighten-3" href="/">Home</a></li>
-                        <li><a className="grey-text text-lighten-3" href="/">Projects</a></li>
-                        <li><a className="grey-text text-lighten-3" href="/">Dev</a></li>
-                        <li><a className="grey-text text-lighten-3" href="/">More</a></li>
-                    </ul>
-                </div>
-                <div className="col s12">
-                    <div>
-                        <i className="material-icons">copyright</i> 2018 Warsaw
+                <div className="container">
+                    <div className="row">
+                        <div className="col s12 m10">
+                            <h3>get in touch</h3>
+                            <ul>
+                                <li className="social-link">
+                                    <a style={socialColors.facebook}
+                                       className="waves-effect btn"
+                                       href="https://www.facebook.com/q0h44"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i className="fab fa-facebook"> </i> facebook
+                                    </a>
+                                </li>
+                                <li className="social-link">
+                                    <a style={socialColors.github}
+                                       className="waves-effect btn black"
+                                       href="https://github.com/rawlead"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i className="fab fa-github-square"> </i> github
+                                    </a>
+                                </li>
+                                <li className="social-link">
+                                    <a style={socialColors.instagram}
+                                       className="waves-effect btn"
+                                       href="https://www.instagram.com/ivanshyrai/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i className="fab fa-instagram"> </i> instagram
+                                    </a>
+                                </li>
+                                <li className="social-link">
+                                    <a style={socialColors.linkedin}
+                                       className="waves-effect btn"
+                                       href="https://www.linkedin.com/in/ivan-shyrai/"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i className="fab fa-linkedin"> </i> linkedin
+                                    </a>
+                                </li>
+                                <li className="social-link">
+                                    <a style={socialColors.email}
+                                       className="waves-effect black btn"
+                                       href="mailto:ivanshyrai@mail.com"
+                                       target="_blank"
+                                       rel="noopener noreferrer">
+                                        <i className="fas fa-envelope"> </i> email
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div className="col s12 m2">
+                            <h3 className="white-text"><i className="far fa-compass fa-spin"> </i></h3>
+                            <ul>
+                                <li><a className="grey-text text-lighten-3" href="/">Home</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/">Projects</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/">Dev</a></li>
+                                <li><a className="grey-text text-lighten-3" href="/">More</a></li>
+                            </ul>
+                        </div>
+                        <div className="col s12">
+                            <div>
+                                <i className="material-icons">copyright</i> 2018 Warsaw
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </footer>
-);
+            </footer>
+        )
+    }
+}
+
 
 export default Footer;
