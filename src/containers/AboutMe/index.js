@@ -7,7 +7,6 @@ import project_img_2 from '../../assets/project-2-blur.jpg';
 import project_img_3 from '../../assets/project-3-blur.jpg';
 import footer_img from '../../assets/ny.png';
 
-import Navbar from '../../components/Navbar';
 import Header from '../../components/HomeSections/Header';
 import Introduction from '../../components/HomeSections/Introduction';
 import Education from '../../components/HomeSections/Education';
@@ -34,7 +33,6 @@ class AboutMe extends Component {
             <div ref={(aos) => {
                 this.aos = aos
             }}>
-                <Navbar/>
 
                 <Header/>
 

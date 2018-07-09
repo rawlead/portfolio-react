@@ -1,11 +1,10 @@
 .slider h3, .slider h5 {
     padding: 5px 20px;
-    color: #fff;
     font-weight: bold;
 }
 
-.slider img {
-    border: 5px solid #143056;
+.slider h3 {
+    color: #F6B34E;
 }
 
 .slider a {
@@ -20,7 +19,7 @@
 }
 
 .slider .indicators .indicator-item.active {
-    background-color: #fff;
+    background-color: #F6B34E;
 }
 
 .indicators {
@@ -29,12 +28,11 @@
     bottom: 20%;
     right: 50%;
     transform: translateX(0px) translateY(0px);
-    /*margin: 1.9466666667rem 0 1.168rem 0;*/
 }
 
 .slider .indicators .indicator-item {
     background-color: #00001B;
-    border: 3px solid #fff;
+    border: 3px solid #F6B34E;
     z-index: 6;
     position: relative;
 }

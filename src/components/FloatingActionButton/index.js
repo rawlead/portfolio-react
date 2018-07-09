@@ -21,7 +21,7 @@ class FloatingActionButton extends Component {
                 this.fab = fab
             }}>
                 <a className="btn-floating btn-large">
-                    <i className="large material-icons">textsms</i>
+                    <i className="fas fa-address-card"> </i>
                 </a>
                 <ul>
                     <li><a style={socialColors.facebook} className=" btn-floating"

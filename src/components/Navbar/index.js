@@ -36,6 +36,7 @@ class NavbarTop extends Component {
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
             var nav = document.getElementById("nav");
+
             currentScrollPos > nav.clientHeight + 120 ? nav.classList.add("scrolled") : nav.classList.remove("scrolled");
         }
     }
@@ -48,7 +49,7 @@ class NavbarTop extends Component {
                         <div className="nav-wrapper">
                             <a href="#" data-target="sidenav-mobile" className="sidenav-trigger"><i
                                 className="material-icons">menu</i></a>
-                            <Link exact to="/" className="brand-logo center">Ivan Shyrai</Link>
+                            <Link to="/" className="brand-logo center">Ivan Shyrai</Link>
                             <ul className="left hide-on-med-and-down">
                                 <li><NavLink exact to="/" activeClassName="active">Home</NavLink></li>
                                 <li><NavLink to="/projects" activeClassName="active">Projects</NavLink></li>

@@ -18,6 +18,7 @@ class App extends Component {
         return (
             <HashRouter>
                 <div>
+                    <Navbar/>
                     <Switch>
                         <Route exact path="/" component={Home}/>
                         <Route exact path="/projects" component={Projects}/>

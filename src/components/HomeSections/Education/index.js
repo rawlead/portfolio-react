@@ -25,7 +25,7 @@ class Education extends React.Component {
                 {/*Children*/}
                 <div className="container">
                     <div className="row">
-                        <div className="col s12 l5 hide-on-med-and-down ">
+                        <div className="col s12 l5 hide-on-med-and-down">
                             <img src={parallaxImg__balloon} className="education-img" alt="Balloon"/>
                         </div>
 
