@@ -4,10 +4,11 @@
     min-height: 100vh;
     text-align: center;
     position: relative;
+    padding-top: 4rem;
 }
 
 .home-page-img {
-    height: 48vh;
+    height: 40vh;
     background: url("../../assets/IVAN.png") repeat-x center;
     background-size: contain;
     display: block;
@@ -22,7 +23,7 @@
     letter-spacing: 1rem;
     position: absolute;
     color: #143056;
-    top: 0px;
+    top: 30px;
     left: 0;
     right: 0;
 }

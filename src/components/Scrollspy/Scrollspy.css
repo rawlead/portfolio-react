@@ -10,13 +10,13 @@
 
 .table-of-contents a {
     color: #627080;
-    font-weight: bolder;
+    /*font-weight: bolder;*/
 }
 
 .table-of-contents a.active {
     border-left-color: #F6B34E ;
     color: #F6B34E;
-    font-weight: bolder;
+    /*font-weight: bold;*/
 
 }
 

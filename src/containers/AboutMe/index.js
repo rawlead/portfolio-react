@@ -18,15 +18,12 @@ import Footer from '../../components/Footer';
 
 import Scrollspy from '../../components/Scrollspy';
 
-import M from "materialize-css";
 import 'materialize-css/dist/css/materialize.min.css';
 import AOS from "aos";
 
 
 class AboutMe extends Component {
     componentDidMount() {
-        // Materialize components initializatio
-
         AOS.init(this.aos);
     }
 
