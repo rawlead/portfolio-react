@@ -4,11 +4,10 @@
     min-height: 100vh;
     text-align: center;
     position: relative;
-    padding-top: 4rem;
 }
 
 .home-page-img {
-    height: 40vh;
+    height: 48vh;
     background: url("../../assets/IVAN.png") repeat-x center;
     background-size: contain;
     display: block;
