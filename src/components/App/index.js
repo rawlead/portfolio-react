@@ -7,7 +7,7 @@ import AOS from 'aos/dist/aos';
 
 import './App.css';
 
-import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
+import {HashRouter, Router, Switch, Route, Link} from 'react-router-dom';
 
 import Home from "../../containers/Home";
 import AboutMe from "../../containers/AboutMe";
@@ -20,7 +20,7 @@ class App extends Component {
 
     render() {
         return (
-            <Router>
+            <HashRouter>
                 <div>
                     <Navbar/>
                     <Switch>
@@ -28,7 +28,7 @@ class App extends Component {
                         <Route exact path='/aboutMe' component={AboutMe}/>
                     </Switch>
                 </div>
-            </Router>
+            </HashRouter>
 
         );
     }
